@@ -19,16 +19,14 @@ export default function App() {
 
   return (
     <Template>
-      <Button
-        click={increment}
+      <Button click={increment}
         title="Incrementar"
         styled={
           "bg-purple-500 hover:outline-offset-2 hover:outline-purple-500  active:bg-purple-600"
         }
       />
       <h1 className="text-6xl m-4">Contagem: {count}</h1>
-      <Button
-        click={decrement}
+      <Button click={decrement}
         title="Decrementar"
         styled={
           "bg-purple-500 hover:outline-offset-2  hover:outline-purple-500 active:bg-purple-600"
